@@ -17,12 +17,12 @@ private static SQLiteConnection conexao;    //  variavel
 
 - metodo que faz a conexao com o banco
 
-private static SQLiteConnection ConexaoBanco()  //  metodo
-{
-    conexao = new SQLiteConnection("Data Source = C:\\Users\\AlphaPaiN\\Documents\\dev\\Notes\\Visual Studio\\SQLite\\Banco de Dados\\Banco_academia.db");
-    conexao.Open();
-    return conexao;
-}
+- private static SQLiteConnection ConexaoBanco()  //  metodo
+- {
+-   conexao = new SQLiteConnection("Data Source = C:\\Users\\AlphaPaiN\\Documents\\dev\\Notes\\Visual Studio\\SQLite\\Banco de Dados\\Banco_academia.db");
+-    conexao.Open();
+-    return conexao;
+- }
 
 
 ## o using engloba todo conteudo dentro do comando 
